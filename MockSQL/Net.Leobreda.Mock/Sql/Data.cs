@@ -7,7 +7,6 @@ using System.Linq;
 using System.Data.Common;
 using System.Data;
 using Newtonsoft.Json;
-using Net.Leobreda.Mock.Debug;
 
 namespace Net.Leobreda.Mock.Sql
 {

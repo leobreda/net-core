@@ -15,7 +15,7 @@ namespace MockSQL
 		static void Main(string[] args)
 		{
 
-			throw new Exception("Open README.md file BEFORE running this program, and comment this line!");
+			Console.WriteLine("Open README.md file BEFORE running this program, and comment this line!");
 
 
 			Program program = new Program();

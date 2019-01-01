@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.Common;
 using MySql.Data.MySqlClient;
 using Net.Leobreda.Mock.Sql;
-using Net.Leobreda.Mock.Debug;
+using Net.Leobreda.Mock;
 using Microsoft.Extensions.Configuration;
 
 namespace Net.Leobreda.Database
