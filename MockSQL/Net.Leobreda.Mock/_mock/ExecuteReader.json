@@ -1,0 +1,12 @@
+﻿[
+  {
+    "description": "List people",
+    "commandText": [ "SELECT ID, FULLNAME, DATEBIRTH FROM PEOPLE ORDER BY ID" ],
+    "file": "people.csv"
+  },
+  {
+    "description": "Get 1 person on people",
+    "commandText": [ "SELECT ID, FULLNAME, DATEBIRTH FROM PEOPLE WHERE ID=?" ],
+    "file": "person.csv"
+  }
+]

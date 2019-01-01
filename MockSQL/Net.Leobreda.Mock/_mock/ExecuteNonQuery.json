@@ -1,0 +1,17 @@
+﻿[
+  {
+    "description": "Insert person on People table",
+    "commandText": [ "INSERT INTO PEOPLE (FULLNAME, DATEBIRTH) VALUES ('?','?');SELECT @@identity;" ],
+    "value": 9999
+  },
+  {
+    "description": "return rows updated",
+    "commandText": [ "UPDATE PEOPLE SET FULLNAME='?', DATEBIRTH='?' WHERE ID=?" ],
+    "value": 10
+  },
+  {
+    "description": "return rows deleted",
+    "commandText": [ "DELETE FROM PEOPLE WHERE ID=?" ],
+    "value": 3
+  }
+]

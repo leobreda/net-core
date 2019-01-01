@@ -1,0 +1,4 @@
+ID;FULLNAME;DATEBIRTH
+int;string;date
+1;Leonardo Breda;2018-02-03
+2;Neil Armstrong;1930-08-05

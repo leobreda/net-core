@@ -1,0 +1,14 @@
+﻿[
+  {
+    "description": "Insert person on People table",
+    "commandText": [ "INSERT INTO PEOPLE (FULLNAME, DATEBIRTH) VALUES ('?','?');SELECT @@identity;" ],
+    "type": "int",
+    "value": "9999"
+  },
+  {
+    "description": "return rows updated",
+    "commandText": [ "UPDATE PEOPLE SET DATEBIRTH='?' WHERE FULLNAME='?'" ],
+    "type": "int",
+    "value": "1"
+  }
+]
