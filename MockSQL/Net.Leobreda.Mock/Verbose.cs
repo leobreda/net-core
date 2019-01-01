@@ -4,6 +4,7 @@ using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
+using System.Linq;
 
 namespace Net.Leobreda.Mock
 {
@@ -33,7 +34,6 @@ namespace Net.Leobreda.Mock
 			_folder = _configurationRoot["Net.Leobreda.Mock.Verbose:folder"].ToString();
 			_size = Convert.ToUInt32(_configurationRoot["Net.Leobreda.Mock.Verbose:size"].ToString());
 			_amount = Convert.ToUInt32(_configurationRoot["Net.Leobreda.Mock.Verbose:amount"].ToString());
-
 		}
 
 
@@ -71,6 +71,10 @@ namespace Net.Leobreda.Mock
 							_folder + file + "-" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt");
 
 				return _folder + file + ".txt";
+
+
+
+
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 ﻿MockSQL
 -------
-Biblioteca para utilização de mock no lugar de banco de dados SQL.
+Biblioteca para utilização de arquivos texto (mock) no lugar de banco de dados SQL.
 
 Útil para cenários de testes onde a massa de dados não está pronta,
 ou até mesmo para Teste Unitários.
