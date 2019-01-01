@@ -1,4 +1,7 @@
-﻿Create and insert rows BEFORE start application
+﻿
+
+
+Create and insert rows BEFORE start application
 
 CREATE TABLE PEOPLE (
 	ID INT AUTO_INCREMENT,
